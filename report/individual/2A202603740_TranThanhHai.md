@@ -21,13 +21,13 @@ precision  recall  F1 (test)  F1 (SUB 40)  \
 3b. Encoder (MiniLM) + LogReg        0.957   0.965      0.961        1.000   
 3c. Encoder (MiniLM) + MLP head      0.991   0.947      0.969        1.000   
 
-                                 train (s)  tin/s (cả lô)  p50 ms/tin  \
+train (s)  tin/s (cả lô)  p50 ms/tin  \
 1. BoW + LogReg (tự code)            4.704      27021.384       0.060   
 3a. Encoder (MiniLM) + kNN          87.694         20.781      55.677   
 3b. Encoder (MiniLM) + LogReg       88.885         33.663      30.222   
 3c. Encoder (MiniLM) + MLP head     89.273         19.271      61.507   
 
-                                 p95 ms/tin  USD / 1k tin  
+ p95 ms/tin  USD / 1k tin  
 1. BoW + LogReg (tự code)             0.106           0.0  
 3a. Encoder (MiniLM) + kNN           76.512           0.0  
 3b. Encoder (MiniLM) + LogReg        40.207           0.0  
